@@ -1,0 +1,5 @@
+In this assignment jmeter is used. Jmeter is a open-source application provided by apache. This application is used in order to check a web page for stress test and load test. Jmeter can create multiple threads creating an illusion of multiple users, which will provide the performacne of our app when a number of users are trying to access the app. 
+
+It also measures time taken by services and network.  
+
+datetime.datetime.now() Methods are used in the code to get the time taken by the services or networks etc.

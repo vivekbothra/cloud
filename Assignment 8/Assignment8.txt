@@ -1,0 +1,23 @@
+
+firstpage(): ==> This method is used to perform the basic functionalities such as logging in the user. It gets the username and password from the html page. And further checks those values in the database. 
+
+
+secondpageonetime(): ==> This method gets the username and makes it the current user. And using the render_template method we render the selection.html template. 
+
+
+thirdpage(): ==> This method provides the compute that decides based on the input that method gets. Input can be uploading of pictures or to see his pictures or just to see other user's pictures. After the selection is made, the control is transferred to the next method. 
+
+
+fifthpage(): ==> This method keeps check if the file size or user quota is going beyond the size allocated. It also gets the file to be uploaded and the comment with that file that needs to uploaded as well. 
+
+deletemypics(): ==> This method deletes the pics that the current user asks to delete. delete.html is the template that asks the user to select the picture. 
+
+seeothersimage(): ==> This method is designed to see other users pictures. As they have uploaded with their comments as well. 
+This information is asked by the seeothersimages.html template. This template gets the input of the name of the user whose images are to be printed. Feed.html displays those images only that belongs to that particular user. 
+
+updatecomment(): ==> As the name suggests this function gets the value of a updated comment from the feed.html And then this comment is further updated in the database. 
+
+
+MongoClient() ==> This method is a part of the pymongo package that is used to connect the python code to the database. 
+
+getSize() ==> This method is a inbuilt method used by the python in order to find the size of a file. 

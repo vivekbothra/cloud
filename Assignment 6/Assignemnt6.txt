@@ -1,0 +1,20 @@
+CSVLoader() ==> This method is used to load the csv file. There are a various types of loaders that can upload dataset in any form on to the weka to perform clustering on it. 
+
+loader.setSource() ==> This will get the source location of the file so that loader object of the CSVLoader class can get that file. 
+
+getDataSet() ==> This will get the dataset from the loader object and create an instance so that weka can perform kmeans on that instance. 
+
+Options ==> These options are the parameters that we need to set in order to tell the SimpleKMeans class exactly what it needs to do on the dataset provided. 
+N ==> No of clusters 
+init ==> to initalize the method to be used
+C -> Canopies used 
+A ==> Distance funciton used
+num-slots ==> Number of execution slots. 
+
+
+kmean.setOptions() ==> As the name suggests is just setting up the options on the kmean. 
+
+kmean.buildClusterer() ==> This function prepares the cluster to be displayed.
+
+
+BufferedWriter ==> This method writes the values from the kmean object onto a file. And file location must be given in the BufferedWriter constructor. 

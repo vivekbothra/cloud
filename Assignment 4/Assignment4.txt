@@ -1,0 +1,47 @@
+
+Assignment 4
+
+The python code: 
+
+Most of the code in the beginning is same as the code in assignment 3. 
+
+app.Flask(__name__) ==> This method is used by the Flask API in order to know that what resources are being used by the application. 
+This gives Flask the information about your application that can be used in debugging, etc. 
+
+@app.route() ==> This method is used to register a view function that will tell the application where to come after the app has been redirected. Code after this url is executed when the code is sent here. 
+
+request.method ==> It contains the method with which the html has made the request. It can be either POST or GET.
+
+request.form[] ==> This receives the argument that the form in the html has sent. It will receive the value sent by the attribute in the form. 
+
+query.split() ==> Split method splits a string or a file by the delimiter we specify. Those values will be passed into an array which can be accessed just like a array. 
+
+cur.fetchall() ==> This method will return all the tuples of a query result and these tuples will be passed as a list of tuples. 
+
+redirect() ==>  This method returns a response object that if further called can redirect the application to a url. This url can be a url defined by 'route' method.  
+
+url_for() ==> Method which is used to generate a url for an endpoint. This endpoint will be the location or url defined by the route method. or it can be any function that this method can point to . 
+
+
+request.args[] ==> It receives the argument that was passed in the redirect or url_for method. This command becomes useful if you have to use some arguments in other html pages.
+
+render_template() ==> This will render the html template that will be defined in the templates folder. 
+
+
+Login.HTML :
+
+Simple form is created with the POST method. 
+It has two text fields that will get the username and password. A submit button that will transfer the control from login to submit file.  
+
+
+
+Submit.HTML : 
+
+Form with POST method. 
+It has a text field that will get the query parameters that will run the query for random times. 
+
+
+
+Display.html: 
+
+Simply display the files. The information is passed using the jinja2 implementation. Jinja helps to transfer informatioin from python code to html.

@@ -1,0 +1,26 @@
+
+raw_input() ==> In-built method that gets the input from the keyboard. 
+
+getcwd() ==> This method gets the current working directory 
+
+SwiftClient.connection() ==> This method is used in order to pass the authorization parameters to the IBM Bluemix machine that will authenticate the connection the machine and database. 
+
+open() ==> This method opens the file from the 
+
+encrypt(curfile)---> As before uploading we are encrypting a file. This method will encrypt a file just by passing the filename to it. 
+
+
+put_file()--> In order for the container to work on a file we need to pass that file to the container. This method will do that job by opening and passing that file to the container. 
+
+re.split() ==> This method is used in order to split the strings in a file using a delimiter. 
+
+encrypt() ==> Method used to encrypt data using the AES encryption. 
+
+decrypt() ==> Method used to decrypt data using the AES descryption.
+
+@app.route() ==> This method is used to create a view function for the url that will make the code run after this route. 
+
+crypto.cipher ==> is a method used by the python code to access the encryption tools provided by the crypto package. 
+
+GNUpg ==> It is a python framework that lets the python code to access the GnuPG's key management , encryption and other various functionalities directly from the python code. 
+

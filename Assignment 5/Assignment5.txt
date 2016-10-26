@@ -1,0 +1,36 @@
+Map - Reduce
+
+
+In order to get the relation between the magnitude increasing day by day or week by week. 
+ Following code is the mapper part. We are just tokenizing the file based on ',' since we are using a dataset in the form of a csv file. 
+
+ Differentiating the value of magnitude in a range. 
+Math.round()==> Rounds the values passed into this method. 
+
+double.parseDouble() ==> Parses the string value into the double value. 
+
+ In the reducer part of the code. We are just gettting the average of values on a single key. And key is the date in this part. 
+
+value.hasNext() ==> This method keeps checking if there are more values for a particular key. 
+
+
+Now the code that was used in order to get the relation between magnitude and location 
+
+Following code specifies the window in which we are changing the longs and lats. And we get the window with a range of long and lat and with that we can use to map and reduce some data into meaning full clusters. 
+
+output.collect() ==> simply brings the key and value pair together and creates the file containing the key and value pairs with the 
+
+Ex:  output.collect(new Text(lat_long),new DoubleWritable(var));
+                
+
+
+In order to increase the number of mappers and reducers there are simple methods. 
+
+setMapNumTasks() ==> We can define the number of mappers we want for a particular job. This will allocate that many number of mappers for that job, hence, reducing the amount of time taken for a job to complete. 
+
+
+setReduceNumTasks() ==> This method also defines the number of reducers per job. 
+
+
+
+

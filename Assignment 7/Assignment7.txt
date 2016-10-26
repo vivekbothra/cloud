@@ -1,0 +1,23 @@
+
+BarChart.html , ScatterPlot.html and BubbleChart.html
+
+<Style> Tags are being used to provide the bars and the columns and the font a specific color. These are basically CSS tags that will change the look and feel of the chart.
+
+<Script> ==> The first tag is having the link to the d3.js file that contains the methods that will create the barchart. 
+
+==> The second tag contains the code 
+
+margin ==> variable that contains the specification of the margin all around the html. 
+
+x and y ==> x and y axis are declared as variables so that any computation can be performed on them as well. 
+
+scale() ==> Used to scale the variables on the chart. 
+
+There are various ways to depict the x and y axis and in this we are using the ordinal and linear methods to do that. 
+
+d3.tsv() ==> reads the tsv files that we get after running the weka on a dataset, which gives us the clusters. 
+
+SVG as it stands of scalable vector graphics are used in this because we need to use the graphics in the d3 that are scalable with the information d3 getting from the file. 
+
+
+The ways of appending the information on to the 

@@ -1,0 +1,23 @@
+
+def firstpage(): ==> Gets the username and password form the user.
+
+
+checking() & secondpage(): Getting the username and password and comparing them to the database. 
+
+
+
+thirdpage(): Asks the user to make a choice between uploading, changing subject or priority or to see the results that have been sorted based on either priority orsubject or date or time. 
+
+
+whattoupload.html ==> asks for file, subject and priority from the user. 
+
+extractinfo(): Gets the arguments from whattoupload.html and checks the size of the file whether or not its in the limit and compares that to the user's limit.
+
+
+whattowithpicornote.html ==> Asks to change the subject or priority or note to submit its name and the form. 
+And if the user asks to see its notes and pics in a sorted order then the options is chosen on which the sorting will be based and its submitted. 
+
+
+dowithpicornote(): ==> This method completes the sorting and other functionality that the user demands to be performed on the notes or pics with the option of priority or subject. Feednote.html and feed.html display the results from the sorting. 
+
+

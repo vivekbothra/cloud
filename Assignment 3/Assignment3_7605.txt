@@ -1,0 +1,41 @@
+﻿Database and Cache (Assignment 3)
+
+The modules that have been imported for this code are 
+1. Redis 
+2. Random
+3. Datetime
+4. psycopg2 
+
+
+
+redis ==> This package is an open-source, in-memory data structure store, that helps us to bridge the python language and our redis cluster. 
+
+StrictRedis() ==> This method is used to make the connection to the redis cluster that is running on amazon cloud.
+
+
+psycopg2 ==> This package is a driver that helps the python program to run sql queries on sql database. 
+
+
+connect() ==> This method comes under the psycopg2 API. This method helps to define the host,username,password and port for the sql database. This basically connects the python code to the PostGreSQL database. 
+
+
+conn.cursor() ==> this helps the python code to actually perform the POSTGRESQL commands on the database. 
+
+
+open() ==> This method is built-in method of python which is used to open files with various flags. Giving the code access to the file. 
+
+
+cur.execute() ==>  This method actually passes the sql command as a string to the cursor, and the cursor further executes this command on the database. 
+
+cur.executemany() ==> This method works like the execute method but this method passes a sequence of parameters to the cursor and so that could perform a sql command on a number of parameters.
+
+csv.reader() ==> This method is used to read csv files which further returns the reader object that will iterate over the lines given in the csvfile. 
+
+
+random.uniform() ==> This method finds a random number between the values that we enter in the uniform method. 
+
+
+datetime.datetime.now() ==> This command uses the datetime module that is built-in python and it prints the time at which this command is run. 
+
+
+

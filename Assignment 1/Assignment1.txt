@@ -1,0 +1,34 @@
+raw_input() ==> In-built method that gets the input from the keyboard. 
+
+getcwd() ==> This method gets the current working directory 
+
+SwiftClient.connection() ==> Does the job of passing the authorization parameters to the IBM bluemix which only after that lets the local machine to create a connection to the Bluemix and to work on its database. 
+
+Start() ==> This is a function that performs the input of username and password and the beginning of application
+
+open() ==> This method opens the file from the 
+
+file_upld() ==> This method as the name suggests is used to upload the files on to the database. 
+
+get_conn() ==> This function just passes the authorization values of the ibm bluemix to the SwiftClient that passes those to the bluemix. 
+
+create_cont(conn)--> Creating the connection to the container.
+
+list_cont(conn)---> listing all the containers in the database. 
+
+list_obj(conn)---> Listing all the objects that have been created with the containers in a particular account. 
+
+delete_obj()--> To delete an object in a container which is being used by the file. 
+
+
+encrypt(curfile)---> As before uploading we are encrypting a file. This method will encrypt a file just by passing the filename to it. 
+
+
+put_file()--> In order for the container to work on a file we need to pass that file to the container. This method will do that job by opening and passing that file to the container. 
+
+
+download_file()--> In order to display a file on your local machine we need to get that file from the database. And in order to do that we are going to have to first decrypt the file and download that file on to our local machine. 
+
+
+GNUpg ==> It is a python framework that lets the python code to access the GnuPG's key management , encryption and other various functionalities directly from the python code. 
+

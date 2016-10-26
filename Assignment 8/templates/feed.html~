@@ -1,0 +1,8 @@
+<html>
+<body>
+	<p>This is feed page..  </p>
+	<img src="{{picdata}}" name="image" style="width:304px;height:425px;"> 	
+</body>
+ 
+</html>
+
